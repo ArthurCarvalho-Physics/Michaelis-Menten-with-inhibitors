@@ -3,6 +3,11 @@ We performed a study of Michaelis-Menten chemical kinetics with inhibitors using
 
 $H\psi = E\psi$
 
+\begin{equation}
+     \frac{\partial \ket{\Psi(t)}}{\partial t} = -H(\alpha^\dagger_1,\alpha_1,...,\alpha^\dagger_k,\alpha_k)\ket{\Psi(t)},
+     \label{eq:schrodinger_equation}
+\end{equation}
+
 with solution:
 
 \equation
