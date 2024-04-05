@@ -1,7 +1,7 @@
 # Michaelis-Menten-with-inhibitors
 We performed a study of Michaelis-Menten chemical kinetics with inhibitors using the Fock space approach. This methodology consists of rewriting the master equation as a Schrödinger equation:
 
-\equation
+$H\psi = E\psi$
 
 with solution:
 
