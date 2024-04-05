@@ -6,7 +6,7 @@ $$\ket{\Psi(t)} = \exp[-H(\alpha^\dagger_1,\alpha_1,...,\alpha^\dagger_k,\alpha_
 
 The solution determines the probability of occurrence of each system configuration. The H factor is a quasi-Hamiltonian that is written in terms of second quantization operators. For Michaelis-Menten kinetics with inhibitor, H is:
 
-$$H = k_{1+}(c^{\dagger}_1 - e^{\dagger} s^{\dagger})es + k_2(e^{\dagger}p^{\dagger} - c^{\dagger}_1)c_1$$
+$$H = k_{1+}(c^{\dagger}_1 - e^{\dagger} s^{\dagger})es + k{1-}(e^{\dagger} s^{\dagger} - c^{\dagger}_1)c_1 + k_2(e^{\dagger}p^{\dagger} - c^{\dagger}_1)c_1$$
 
 Each configuration is expressed in terms of kets and bra, in our code we use lists to represent these states, and we use an alternative representation of the quasi-Hamiltonian, writing it in terms of Kronecker deltas.
 
