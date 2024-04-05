@@ -1,13 +1,8 @@
 # Michaelis-Menten-with-inhibitors
 We performed a study of Michaelis-Menten chemical kinetics with inhibitors using the Fock space approach. This methodology consists of rewriting the master equation as a Schrödinger equation:
-
-$H\psi = E\psi$
-
 $$\frac{\partial \ket{\Psi(t)}}{\partial t} = -H(\alpha^\dagger_1,\alpha_1,...,\alpha^\dagger_k,\alpha_k)\ket{\Psi(t)},$$
-
 with solution:
-
-\equation
+$$\ket{\Psi(t)} = \exp[-H(\alpha^\dagger_1,\alpha_1,...,\alpha^\dagger_k,\alpha_k)t]\ket{\Psi(0)},$$
 
 The solution determines the probability of occurrence of each system configuration. The H factor is a quasi-Hamiltonian that is written in terms of second quantization operators.
 
