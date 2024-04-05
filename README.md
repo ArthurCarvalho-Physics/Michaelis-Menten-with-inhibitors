@@ -13,6 +13,4 @@ The solution determines the probability of occurrence of each system configurati
 \end{eqnarray}
 ```
 
-Each configuration is expressed in terms of kets and bra, in our code we use lists to represent these states, and we use an alternative representation of the quasi-Hamiltonian, writing it in terms of Kronecker deltas.
-
-Our approach allowed us to determine the average quantity of substances as a function of time t, the time of first formation of product P, the reaction rate and the Lineweaver-Burk linearization. The refer to these results.
+Each configuration is expressed in terms of kets $\ket{\eta}$ and bra $\bra{\eta}$, in our code we use lists to represent these states, and we use an alternative representation of the quasi-Hamiltonian, writing it in terms of Kronecker deltas. Our approach allowed us to determine the average quantity of substances as a function of time t, the time of first formation of product P, the reaction rate and the Lineweaver-Burk linearization. The refer to these results.
