@@ -3,9 +3,8 @@ We performed a study of Michaelis-Menten chemical kinetics with inhibitors using
 
 $H\psi = E\psi$
 
-$     
-\frac{\partial \ket{\Psi(t)}}{\partial t} = -H(\alpha^\dagger_1,\alpha_1,...,\alpha^\dagger_k,\alpha_k)\ket{\Psi(t)},
-$
+$$\frac{\partial \ket{\Psi(t)}}{\partial t} = -H(\alpha^\dagger_1,\alpha_1,...,\alpha^\dagger_k,\alpha_k)\ket{\Psi(t)},$$
+
 with solution:
 
 \equation
